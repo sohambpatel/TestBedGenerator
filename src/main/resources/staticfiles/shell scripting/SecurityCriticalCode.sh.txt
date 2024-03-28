@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Enter your password:"
+read -s password
+
+# Perform security-critical operation (e.g., encrypting the password)
+encrypted_password=$(echo "$password" | sha256sum)
+
+# Clear the password variable
+unset password
+
+# Display the result (in a real-world scenario, you might not display sensitive data)
+echo "Encrypted Password: $encrypted_password"

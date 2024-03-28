@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Define variables
+project_name="my_project"
+web_server="apache"
+database_server="mysql"
+
+# Create directory structure
+mkdir -p $project_name/{web,db}
+
+# Initialize Git repository
+cd $project_name
+git init
+
+# Create configuration files
+echo "ServerName localhost" > web/apache.conf
+echo "DatabaseName=mydatabase" > db/database.config
+
+# Display information
+echo "Project '$project_name' created with $web_server and $database_server."

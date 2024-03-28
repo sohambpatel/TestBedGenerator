@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Poorly named variables
+a="John"
+b="Doe"
+c="Hello"
+
+# Redundant use of 'echo' and unnecessary quotes
+echo "$c, $a $b!"
+
+# Unclear purpose and lack of comments
+x=$(ls -l | grep ".txt")
+y=$(wc -l $x | cut -d ' ' -f 1)
+echo "Number of lines in text files: $y"
+
+# Hardcoded paths and lack of error handling
+file="/path/to/file.txt"
+cat $file
+
+# Repeated code
+echo "This is the first message."
+echo "This is the second message."
+
+# Incorrect indentation
+if [ 1 -eq 1 ];then
+echo "Indentation is off!"
+fi
