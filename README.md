@@ -5,6 +5,14 @@ TestBedGenerator is a framework to generate test beds for testing up different f
 - Using chatgpt, we have exposed the chatgpt API to generate the test beds on the basis of the prompt provided
 - Using inhouse LLM, you can install and run the inhouse LLM commands to generate the test cases like OLLAMA
 - Using the REST API with inhouse LLM like OLLAMA, exposed generate API of OLLAMA to generate the test beds as per the prompt provided
+  
+## Contributers and Authors
+- Soham Patel
+- Kailas Patil (kailas.patil@vupune.ac.in)
+- Prawit Chumchu (prawit@eng.src.ku.ac.th)
+
+## Link of the published paper
+https://doi.org/10.1016/j.simpa.2024.100687
 
 ## Pre-requisite
 - Java : you would need java to install on your machine and setup the path https://phoenixnap.com/kb/install-java-windows
